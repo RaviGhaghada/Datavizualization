@@ -1,0 +1,15 @@
+HOW GRAPH.PY WORKS:
+
+Plotting a bar graph: 
+
+1.  Acquire the details from a sheet
+2.  Calculate the total incidents recorded for each different category of crime with a format like ("Theft": 42, "Assault": 53)
+3.  Store the keys ("Theft", "Assault"...) in a tuple so that it can be used to label the x-axis
+4.  Generate a list marking the positions of each label on the x-axis
+5.  Set width of the bar
+6.  Assign data to the plot using the positions of labels, the value of each labels, and the orientation of the labels on the x-axis.
+7.  By trial and error, extend the bar graph so that the labels don't fall out of the image.
+8.  Manipulate the bar plot's overall size according to needs
+9.  Save the graph
+10. Close the figure
+
